@@ -1,0 +1,50 @@
+<!DOCTYPE html> <!--A VERSÃO MAIS NOVA DO HTML-->
+<html lang="pt-br"> <!--HTML + IDIOMA QUE ESTAMOS UTILIZANDO-->
+
+<head> <!--CONFIGURAÇÕES DO SITE-->
+    <meta charset="UTF-8"> <!-- PADRÃO DE CARACTERES-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- NOSSO SITE É COMPATIVÉL COM CELULARES E COMPUTADORES-->
+    <link rel="stylesheet" href="style.css">
+    <title>Starbucks</title> <!--TITULO DO SITE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="circulo"></div>
+    <img src="imagens/logo.png" class="logo">
+    <div class="conteudo">
+        <div class="textosebotao">
+            <h2>Não é apenas um café, é <span>Starbucks</span></h2>
+            <p>No Starbucks, pensamos que cada bebida deve ser uma experiência única e especial. Nosso café é conhecido
+                por
+                seu sabor rico e incorporado, graças à torra artesanal que realça as melhores características de cada
+                grão.
+                Além disso, oferecemos uma variedade de bebidas personalizáveis, desde clássicos como cappuccinos e
+                espressos até criações exclusivas como nossos frappuccinos e bebidas sazonais, sempre preparadas com
+                ingredientes de alta qualidade. Seja qual for o seu gosto, estamos aqui para transformar cada momento em
+                algo delicioso e satisfatório. </p>
+            <button>Deixe seu like</button>
+        </div>
+        <div class="imagemsorvetaoverde">
+            <img src="imagens/img1.png" class="imagem-sorvete-verde">
+        </div>
+    </div>
+    <div class="menu3sorvetes">
+        <img src="imagens/thumb1.png" class="botao-menu" onclick="trocaImagem('imagens/img1.png'); trocaCor('#017143')">
+
+        <img src="imagens/thumb2.png" class="botao-menu" onclick="trocaImagem('imagens/img2.png'); trocaCor('#eb7495')">
+
+        <img src="imagens/thumb3.png" class="botao-menu" onclick="trocaImagem('imagens/img3.png'); trocaCor('#d752b1')">
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,113 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    /*DEFINIU A FONTE NO CASO POPPINS PARA TODO SITE*/
+}
+
+body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+
+.logo {
+    width: 80px;
+
+}
+
+.conteudo {
+    width: 100%;
+    /*LARGURA DA CAIXA CONTEUDO */
+    display: flex;
+    /*EM FLEX A GENTE CONSEGUE MOVIMENTAR,ORGANIZAR OS ITENS,IMAGENS*/
+    justify-content: space-between;
+    /*CONSEGUIMOS POSICIONAR A CAIXA CONTEUDO,OQUE TIVER DENTRO DELA..SÓ PODE SER UTILIZADO CASO O FLEX ESTEJA ATIVO*/
+    align-items: center;
+
+}
+
+.textosebotao {
+    width: 600px;
+
+}
+
+h2 {
+    color: #333;
+    /*DEFINE A COR DE ALGO*/
+    font-size: 60px;
+    /*TAMANHO DA FONTE*/
+    font-weight: bold;
+    /*GROSSURA DO TEXTO, TIPO NEGRITO, ITALICO*/
+
+}
+
+p {
+    font-size: 16px;
+}
+
+button {
+    background-color: #017143;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #2bc585;
+}
+
+.imagemsorvetaoverde {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+
+}
+
+.imagem-sorvete-verde {
+    width: 340px;
+
+}
+
+.menu3sorvetes {
+    display: flex;
+    justify-content: center;
+
+}
+
+.botao-menu {
+    width: 60px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.botao-menu:hover{
+    transform: translateY(-25px);
+
+}
+.circulo {
+    background-color: #017143;
+    height: 100%;
+    /*ALTURA*/
+    width: 100%;
+    /*LARGURA*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    z-index: -1;
+    /*DEFINE OQUE FICA NA FRENTE DO OQUE*/
+}
+
+span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900px;
+}
