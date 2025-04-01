@@ -8,6 +8,10 @@
 </p>
 <h4>Com o meu empenho e dedicação consegui este resultado:</h4>
 
+<img width="600px" src="https://github.com/ygoraxe/Starbucks/blob/main/imagens/Starbucks1.png?raw=true"/>
+<img width="600px" src="https://github.com/ygoraxe/Starbucks/blob/main/imagens/Starbucks2.png?raw=true"/>
+<img width="600px" src="https://github.com/ygoraxe/Starbucks/blob/main/imagens/Starbucks3.png?raw=true"/>
+
 
 
 
